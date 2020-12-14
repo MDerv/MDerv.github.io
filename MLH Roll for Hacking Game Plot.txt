@@ -1,0 +1,490 @@
+﻿(Starting HP: 50, Weapon Level: 0, Armour Level: 0, Starting Coins: 100)
+Global Variables List (will try to keep updated):
+* Name
+* # of retries (basically amount of times user has died and has to start over)
+
+
+Game Name: The Murders of Worcestershire-Sauss
+
+
+Introduction/Choose a Story Arc:
+1. The year is 1632 a.d. You wake up in your house on a small white bed, barely big enough for you. It’s a small cottage, with a roof made of hay and only one room. You look across the room and see your kitchen, reminding you that you’re hungry. You look to your left and see the door to your house. You look to your right, and shoved in the small space between your bed and the wall you see the glint of a sword. What do you do? Page 0
+   1. Pick up the sword.
+      1. You pick up the sword. A smart choice: the world outside is very dangerous.
+A sword has been added to your inventory.
+(Return to 1)
+   2. Make breakfast.
+      1. You feel your stomach grumbling, and decide to quell your hunger with some oats and brown bread.
+Your HP has been replenished to 100.
+(Return to 1)
+   3. Leave the house.
+      1. (If no sword) Your adventurous spirit eventually gets the best of you, and you decide to wander outside. The air is nice and cool, and the grassy plains stretch out in front of you for miles as the sunlight from the rising sun seems to glisten off each individual blade of grass.
+Unfortunately, you forgot rule #1 of adventuring: bring a weapon. 
+As soon as you step outside, you feel sharp claws grip onto both of your shoulder blades. You look up to see a giant falcon about three times your size carrying you away from your house, likely to its nest. As the falcon’s claws dig deeper into your bones, you think to yourself, “Maybe I should have gotten my sword first.”
+The thought is short lived, and soon thereafter you get eaten by the giant bird.
+Tip: Always carry a weapon with you. Page 1
+(Return to 1)
+      2. (If sword, hp <= 50) Your adventurous spirit eventually gets the best of you, and you decide to wander outside. The air is nice and cool, and the grassy plains stretch out in front of you for miles as the sunlight from the rising sun seems to glisten off each individual blade of grass.
+As soon as you step outside, you feel sharp claws grip onto both of your shoulder blades. You look up to see a giant falcon about three times your size carrying you away from your house, likely to its nest. But you do not hesitate. You swing your sword at the falcon’s claws, and it drops you instantly as it cries out in pain. 
+Unfortunately, you forgot rule #2 of adventuring: always have a good breakfast.
+As you fall, you realize that the ground was much farther away than you expected. You land on the ground with a soft *thump*. You try to get up, but you feel the energy slowly draining from you. You think to yourself, “Maybe I should have had breakfast,” but the thought comes too late, and the angry falcon eats you soon thereafter.
+Tip: Make sure to replenish your energy often. Page 2
+(Return to 1)
+      3. (If sword, hp > 50) Your adventurous spirit eventually gets the best of you, and you decide to wander outside. The air is nice and cool, and the grassy plains stretch out in front of you for miles as the sunlight from the rising sun seems to glisten off each individual blade of grass.
+As soon as you step outside, you feel sharp claws grip onto both of your shoulder blades. You look up to see a giant falcon about three times your size carrying you away from your house, likely to its nest. But you do not hesitate. You swing your sword at the falcon’s claws, and it drops you instantly as it cries out in pain. 
+You brace yourself for the fall, and you land on the ground with a soft *thump*. It hurts a little, but you are still alive. Page 3
+ (Hp = hp - 50)
+(Proceed to 2)
+   4. Go back to sleep.
+      1. You sit up from your bed, but then think to yourself, “I’m too tired,” and immediately go back to sleep.
+(Return to 1)
+2. The falcon, now angry, turns around in the air and starts flying directly towards you. What do you do? Page 4
+   1. Run away from the cottage (west)
+      1. You sheath your sword and begin running as fast as your legs can carry you. You hear the beats of the falcon’s wings as it chases you down the bare and dusty road. Eventually, the falcon tires of the chase and the sound of its wings begins to fade. Once you’re sure it’s gone, you slow your pace to a walk. Soon, the dusty road gives way to a well-maintained cobblestone path shaded with tall trees. Page 5
+(Proceed to 3)
+   2. Run back into the cottage (east)
+      1. You run back towards the cottage, hoping the shelter will prevent the giant falcon from grabbing you again. You hear the clicking of the falcons claws behind you, and just before they reach you you grab the door to your house and slam it shut behind you. You’re safe.
+There’s just one problem: your cottage has a roof made of hay.
+The falcon digs the hay off the top of your cottage and scoops you up again. You flail with your sword, but it’s of no use this time. Demoralized and defeated, you await your demise at the claws of the giant falcon.
+(Return to 1) Page 6
+   3. Stay and fight
+      1. You think to yourself, “Running is for suckas” and decide to stand in place and fight. But you and your puny sword stand no chance against the giant falcon. 
+The falcon easily bats away your sword and scoops you up with its giant claws. You think to yourself, “Maybe I should have run,” but the thought is short lived. Almost as short lived, in fact, as your lifespan. Almost. Page 7
+(Return to 1)
+3. You have arrived in a small town. It’s the city of Worcestershire-Sauss, England. A fair amount of people bustle about, many just commoners. To the North you see an open space with a well in the center, surrounded by all sorts of cool people! To the South, you see the town hall building, where a group of commoners are coalescing. Further to the West, you see a marketplace. What do you do? Page 8
+   1. Go North (to the city center).
+      1. (Proceed to 4)
+   2. Go South (to the town hall building).
+      1. (Proceed to 5)
+   3. Go West (to the market).
+      1. (Proceed to [Buying Equipment])
+   4. Go East (home).
+      1. You decide that the outside is too overwhelming and decided to head home and get some rest. 
+After a few minutes the small town is just out of sight. You continue walking along the dirt path leading away from the city when suddenly you hear a screeching sound come from above. 
+You look up to see not one, but two giant falcons circling above you. Apparently the one from earlier brought help. What do you do? Page 9
+         1. Run West (to the village)
+            1. Without thinking you run straight to the village. It was closer than home, and much safer too.
+You feel the beating wings of the two giant falcons behind you, and you can sense their claws getting ever closer to you. What do you do? Page 10
+               1. Duck left
+                  1. You duck to the left just as the claws of one falcon brush past your neck. You continue running along, ducking left and right while slashing at the giant birds every once in a while to keep them at bay.
+After 10 minutes of running, you finally make it to the village, and the giant birds stop chasing you. You’re safe. Page 11
+(Return to 3)
+               2. Duck right
+                  1. You duck to the right, straight into the claws of one of the giant falcons. It grabs you by the neck and lifts you up off the ground. Up up and away you go, never to be seen by civilization again. Page 12
+(Return to 1)
+               3. Jump
+                  1. You jump straight up, a horrible choice. Each falcon latches onto one of your rib cages at the same time, carrying you up into the air as they fight over your now limp body. Page 13
+(Return to 1) 
+               4. Do nothing
+                  1. (If hp <= 50) You continue to run straight, and you feel the claw of one of the birds make a giant gash in your neck. You stumble and fall to the ground, trying to stop the bleeding. You feel your energy slowly draining from you, and struggle to get back on your feet. You’re so drained that you can hardly feel the sharp claws of the falcon, carrying your lifeless body through the skies. Page 14
+(Return to 1)
+                  2. (If hp > 50) You continue to run straight, and you feel the claw of one of the birds make a giant gash in your neck. You stumble and fall to the ground, trying to stop the bleeding. You feel the blood dripping down your neck, but you think to yourself, “I have to make it to the village.” So you keep running, dodging left and right to avoid the giant falcons.
+After 10 minutes of dodging and running, you finally make it to the village. You’re safe. Page 15
+(Return to 3)
+         2. Run East (home)
+            1. You attempt to run to your home. However, the falcons seem to have guessed that you would try to run home. One of the falcons swoops down right in front of you and latches onto you by the shoulders, refusing to let go. And as the falcon takes you higher and higher into the sky, you swear that you can hear the other falcon laughing maniacally at your poor decision making skills. Page 16
+(Return to 1) 
+         3. Stay and fight
+            1. You decide to stand still and take both giant falcons head on. A brave choice, but a stupid one nevertheless. 
+You swing your sword at one falcon and it flies away, but as the next one comes at you you find yourself defenseless against it. The falcon grabs you by the shoulders, and as it takes you higher and higher into the sky, you swear that you can hear the other falcon laughing maniacally at your poor decision making skills. Page 17
+(Return to 1) 
+4. You proceed North, towards the city center. Around the well, you find an artisan painting pictures of passersby, a musician playing guitar, a circus performer juggling, and a writer sitting on the well for inspiration. Around the outside of the city center you see blacksmiths working, farmers selling their wheat, and butchers selling their meat to hundreds of customers roaming about. But one particular person catches your eye.
+Sitting on a bench in front of the well is a young man not from this time. His hair is cut very short, barely reaching the ears[a]. He dons a dark black shirt with the words “Ok Boomer” plastered along the front, and has pants are a light blue cotton material reaching all the way down to their ankles. His shoes are unlike anything you’ve ever seen: nice, polished, and white, but only going up to the ankles. The sight is very unfamiliar to you, and although you figure time travel is impossible, you still feel that, somehow, this person is from the future. 
+You want to walk up to this person, but you think to yourself, “Wouldn’t it be weird to randomly walk up to a random person from the future?” 
+You start to walk away, but then again, the person is so weird that it must be a sign. But a sign for what?
+What do you do? Page 18
+   5. Go north (talk to the person).
+      1. Your curiosity gets the best of you, and you walk towards the person. You notice them looking at you, their eyes seemingly gazing straight into your soul…(note: if possible in background, have person with eyes staring straight at the player irl)
+As you get closer, the person stands up. You are about to say something, but the person merely motions for you to follow him. Page 19
+(Proceed to [Story Arc 1])
+   6. Go south (leave the city center).
+      1. The possibility of talking to a stranger creeps you out, and you leave the city center. 
+(Return to 3)
+   7. Stab yourself
+      1. (Note: if we get the ability to flicker buttons in and out, make this one flicker in and out very briefly as if it’s not supposed to be there)
+5. (If not gone through 5 yet) The gathering of commoners at the town hall intrigues you, and you find yourself wandering South to see what all the commotion is about.
+On the way there, you ask one of the commoners what all the commotion is about, but the commoner ignores you. You try to ask another commoner the same question, but they ignore you as well. Maybe they’re too absorbed in whatever’s happening at the town hall?
+As you approach the town hall, you see a trail of blood. You touch it, and it drips down your index finger. The blood is still fresh. You push through the crowd of people in front of the town hall. Once you reach the front of the crowd, you see the source of the blood. 
+On the ground in front of you lies the body of a seemingly fairly wealthy man. He lies face down on the ground, but you see that he has a massive wound, likely from a sword, right in the center of his chest. You step closer to examine the body further, but a hand stops you. 
+You look up to see the owner of the hand. It’s a young woman, about 20 years old, you guess. She wears a brown tunic with a hood over her head. Your eyes lock with her blue, crystalline eyes. You think to yourself, “She dresses like a commoner, but the air she carries around her seems to suggest she’s from royalty…”
+After what seems like an eternity, she breaks the silence. “Not here. Come with me.”
+What do you do? Page 20
+
+
+(If gone through 5 already) You head back towards the town hall, but as you head on your way you notice the woman, standing about 5 feet away, staring straight at you. 
+“Change your mind?” she asks.
+What do you do? Page 21
+   8. Follow the girl.
+      1. Something tells you that you shouldn’t follow a stranger, but the mysteriousness of what the woman has just told you triggers your adventurous spirit.
+You nod, and the girl motions, “Follow me.” Page 22
+(Proceed to [Story Arc 2])
+   9. Go North (leave the town hall).
+      1. (If not gone through 5 yet) You think to yourself, “Why would I follow a stranger who I barely know,” and you tell the woman, “No thanks, I think I’m better off elsewhere.” Her expression shows confusion, but before she can say otherwise you dart off, leaving her and the dead nobleman behind. Page 23
+(Return to 3)
+      2. (If gone through 5 already) You think to yourself, “Why would I follow a stranger who I barely know,” and you tell the woman, “No thanks, I think I’m better off elsewhere.” Her expression shows confusion, but before she can say otherwise you turn around and start walking in the opposite direction, leaving her and the dead nobleman behind. Page 24
+(Return to 3)
+
+
+Story Arc 1 (from 4)[b]
+1. You feel the sun beating upon the back of your neck as you travel North with the man. You begin panting as you are dehydrated, but there is no water source in sight. Finally after an hour of walking, you find a spooky cave with the sound of flowing water. You walk to the entrance and take a deep breath. The man urges you to go inside, but you hesitate. What do you do? Page 26
+   1. Go inside
+[c]
+      1. (first sentence in red) You lose 25 HP due to your immense thirst. You leave the mysterious man behind at the entrance and walk into the cave. While inside, you witness broken skulls, perhaps those of humans. You hear an eerie screeching sound, so odious that your natural instincts beg you to dart out of the cage. Suddenly, the cave entrance closes itself, trapping you inside. The man shrugs and continues walking. Finally you see light at a distance. You walk closer to this light and find a glistening scroll. Behind the scroll is a cavern pool. What do you do? Page 28[d]
+         1. Read the Scroll
+            1. (Proceed to 2)
+         2. Drink from Pool
+Page 30
+(Return to Introduction→1)
+   2. Run Away Page 54
+      1. Before you can run away, the man with the “Ok Boomer” shirt pulls out his knife and stabs you.
+Tip: Don’t attempt to run away from mysterious people with knives.
+   2. (first sentence in red) You lose 25 HP due to your immense thirst. The scroll says that you can drink from the pool to quench your thirst. The mystical properties of the water will give you a useful boom, but you will also be bound by a curse. What do you do? Page 32
+   1. Drink the water.
+   1. Desperate for water, you accept the scroll’s pact and quench your thirst. The mystical properties of the water increase your health to 150 HP. (green light flashing) An unknown voice tells you, “Thou art bound by a heavy curse, which you must obey, for your painful death is certain otherwise. According to the dreadful curse, thou and all of thy loved ones will turn into slithering serpents. In order to escape this vile curse, thou ought to slay the evil King of Worcestershire-Sauss, responsible for the misery and murder of thousands of his subjects.” Do you accept the scroll’s mission? Page 34
+   1. Yes
+   1. You pick up the scroll, and the entrance of the cave re-opens. You quickly dart out of the cave.
+(Proceed to 3) Page 36
+   2. No
+   1. You turn into a bright green snake. You try and slither back to the entrance of the cave, but it is blocked. A mongoose who happened to be living in the cave spots you and grabs you by the head and bites you, splitting your body into two. It proceeds to eat both parts of your body. What are the odds! Mongooses aren’t even native to the UK :/
+Tip: I mean, you were warned about the snake thing… Page 64
+      2. Leave
+      1. You pass out due to your extreme dehydration and die a few hours later. You should have paid attention to your dehydration. 
+Tip: Don’t forget to drink water! Page 38
+(Return to Introduction → 1)
+      3. As soon as you step outside, the scroll transforms into a map that leads to the King’s palace. You walk in the direction of the palace for about 2 hours. Suddenly, the giant falcon that you had fended off previously, returns, thirsty for sweet REVENGE. The falcon swoops towards you and grabs you with its sharp claws. (Proceed to a if you have any level armor) (Proceed to b if you have no armor) Page 40
+      1. Thankfully, you had armor to protect yourself from being impaled by the sharp claws of the falcon. However, you are still stuck in the claws of the falcon. (Proceed to i if you have a level 2 sword or higher) (Proceed to ii if you have a level 1 sword) Page 42
+      1. Thankfully, you also had a level 2 sword, sharp enough to make a small cut on the falcon’s large steel-plated talons, causing it to let out a loud screech. The falcon lets go of you, and you fall a small distance and lose 25 HP. The falcon flies away in pain. (Proceed to 4) Page 44
+      2. You use your Level 1 sword to try and cut the falcon’s steel-plated talons, but your efforts are futile, as your sword does no damage to the majestic creature’s sturdy claws. The falcon flies higher and higher until it reaches the clouds. The falcon lets out a loud screech and opens its talons, causing you to plummet towards the surface of the Earth.
+Tip: Remember to level up your sword!
+(Return to Introduction → 1) Page 46
+         2. The sharp claws of the falcon pierce through your undefended body. You lose gallons of blood by being impaled by the gigantic talons of the feathered creature.
+Tip: Don’t forget to buy armor!
+(Return to Introduction → 1) Page 48
+            4. You dust yourself off and continue on your journey. You spot a small shop with weapons, armor, and food.
+Do you buy something or continue along with your journey? Page 50
+               1. Buy Something (Takes you to Shop)
+               1. Stocking up on supplies is always a good idea, especially since you don’t know when your next mission will be your last...
+(Proceed to [Buying Equipment])
+               2. Continue with Journey
+               1. (Proceed to 5) 
+               5. After a bit more walking, you finally re-enter the city of Worcestershire-Sauss. You see the giant palace towering over all other buildings, and the map seems to be leading you straight to that palace. On your way, you pass by a town hall building and see the body of a dead nobleman, but you pay no attention to it. Finally, you see a giant palace with hundreds of guards. You walk over to a guard guarding a small door. He is wearing a black fur hat and red coat with a star badge and is standing completely still with a rifle in his arm. The stern expression on his face sent a shiver down your spine.
+What do you do? Page 52
+                  1. Kindly Ask Him to Let You In
+                  1. Without saying a word, the cold-hearted guard takes aim at you with his rifle. You stand there confused and bewildered. The guard pulls the trigger and you die.
+Tip: You will have to depart if you are kind to people with a cold-heart. Page 56
+                     2. Bribe Him
+                     1. You ask the guard, “How much will you take to let me in?” The guard says, “What, you egg?” and stabs you. You underestimated the guard’s Shakespearean memery.
+Tip: Do not try to outmeme the guard! Page 58
+                        3. Make Him Laugh        
+                        1. You walk up to his ear and say “guard-makeLaugh.exe”. The guard bursts out laughing and lets you in. Well that was easy! Page 60
+(Proceed to 6)
+                           4. Stab Him
+                           1. As you pull out your sword, the guard fires his rifle at you. You die.
+Tip: Bruh don’t try stabbing someone with a gun :/ Page 62
+                              6. You find a long corridor stretching half a mile. When you reach the end of the corridor, you find three doors each with a symbol. The left one is labeled with a crown. The center one is labeled with a heart. The right one is labeled with a star. Which door do you pick?  Page 66
+                              1. Crown
+                              1. You walk into the room, to be greeted by… (put coffin dance picture here)
+You instantly die.
+Tip: Don’t pick the crown, you will frown. Page 68
+(Return to Introduction → 1)
+                                 2. Heart
+                                 1. You walk into the room, to be greeted by… the man with the “Ok Boomer” shirt? He says, “Bruh, ya messed up, Zoomer.” He pulls out a blowgun and shoots you with a lethally poisonous dart. You collapse on the floor, foaming from your mouth.
+Tip: If you pick heart, you get dart.
+(Return to Introduction → 1) Page 70
+                                    3. Star
+                                    1. You enter the evil King’s throne room, lavishly decorated with gold and rubies. You see the king snoring on top of his pure jade throne. You use your sword to slay the evil king. At the corner of the room, you see a trapdoor, which you presume leads to an emergency escape route. What do you do? Page 72
+                                    1. Escape using the Trapdoor
+                                    1. You successfully escape the castle and walk around the village in order to blend in with the other citizens. You realize that it is getting dark and find an abandoned cottage and spend the night there. 
+A rooster wakes you up in the morning and you continue roaming around the village. While wandering, you spot another small shop with weapons, armor, and food.
+Do you buy something or continue along with your journey? Page 80
+                                    1. Buy Something (Takes you to Shop)
+                                    1. Stocking up on supplies is always a good idea, especially since you don’t know when your next mission will be your last… Page 82
+(Proceed to [Buying Equipment])
+                                    2. Continue with Journey
+                                    1. (Proceed to 7) 
+                                    2. Remove the Evidence of the Murder
+                                    1. As you drag the King’s corpse out of his chair, the door to the crown room opens. A guard enters the room and realizes that you have murdered the king. He arrests you and throws you in a prison cell. The morning of the following day, you are charged with treason and consequently are sentenced to be boiled alive.
+(Return to Introduction → 1) Page 76
+                                       3. Hide
+                                       1. You hide behind a gold pillar. A guard enters the room, but is able to easily spot you, due to the trail of blood you left behind. He shoots you with his rifle.
+(Return to Introduction → 1) Page 78
+                                          7. You look at the scroll and notice that it has magically re-written itself. It says that you must return the scroll to the cave to finally break the curse. Although you are annoyed by the scroll’s command, you reluctantly walk the long journey back to the cave. When you see the cave at the distance, you notice a mysterious being at the cave’s entrance. (Proceed to Ending)
+
+
+Story Arc 2 (from 5)
+                                          1. You follow the girl further South out of the city. Along the way you try to make small talk with the woman, probing her for further information, but every attempt to talk is shut down by her. So you keep walking. And walking. And walking…..
+After some time, you reach a small cottage on the outskirts of the city. As you get closer, you realize that the cottage eerily resembles your own, but you think nothing of it. 
+Soon, you are standing right in front of the door to the cottage. The woman puts her hand on the door and prepares to push it open, but she stops herself. “Are you sure you want to go in? This could change your life forever.”
+What do you do? Page 27
+                                          1. Go inside
+                                          1. You hesitate for a second. She did just say that this could change your life forever. Did she really mean it?
+You brush aside the thought. Afterall, it seems like a cool adventure.
+You step inside the cottage to find a small gathering of three other men. One man wears a white apron over his brown tunic and thiqqqcccckkkkkkuueeee body. One man is much skinnier, wearing a brown tunic as well but with a brown hat on as well. The last man is an older man with a long, pointy white beard, wearing a green vest over red clothing along with a pointy red hat. All three of them seem like they were expecting you. Page 29
+(Proceed to 2)
+                                          2. Leave
+                                          1. As you think about your entire situation, you realize that something is very amiss. After all, how could this cottage be the same as your own, and why was the girl being so mysterious about everything…
+Creeped out, you head South, away from the woman and the cottage and back towards the city of Worcestershire-Sauss. Page 31
+(Return to Introduction→3)
+                                          2. The men tell you that around the city of Worcestershire-Sauss there have been a weird string of murders happening, and they say they want your help. You’re unsure of why they want your help specifically, but you’ve already gone this far, so you might as well help them out. You ask them for more information, but they decline to give you any. You ask them for their names, but they don’t give you any. They haven’t even told you their names, but you’re just going to have to trust them…
+After the sun sets below the horizon, you and your newfound companions head back to the town hall to investigate the dead nobleman. He’s still lying there, where you saw him earlier. What do you do? Page 33
+                                          3. Investigate his chest.
+                                          1. You investigate his chest and find a stab wound. The same stab wound that you saw earlier. You find a bag of 100 coins, but hide it before anyone else realizes. However, you realize that investigating his chest was literally pointless, and that you just wasted everyone’s time. Good job, [username]. 
+As a punishment for your inadequacy, the old man stabs you in the arm. 
+You lose 50 hp.
+Tip: Investigate for useful information. Page 35
+(Return to 2)
+                                          4. Investigate his arms.
+                                          1. You decide to investigate the arms of the nobleman to see if there are any other clues beside the giant, obvious stab wound on the man’s chest. On the man’s left hand you see blood on his fingertips. “Odd,” you think to yourself. “Why just blood on the fingertips.” So you search his right arm, and you see why. 
+In his right hand, you find a note. The writing is barely legible, and it’s written in blood. It’s hard to make out the word at first, but after concentrating a bit hard you can finally make it out.
+“Ok Boomer” the note scrawled in blood says. Page 37
+(Proceed to 3)
+                                          5. Investigate his head.
+                                          1. You choose to investigate the nobleman’s head. Maybe it’s because his head looks pretty? I guess we’ll never know why you chose to investigate his head, [username]. 
+But that’s mostly because your head is gone now.
+Tip: Investigate for useful information. Page 39
+(Return to Introduction → 1) 
+                                          6. Investigate his legs.
+                                          1. You choose to investigate the nobleman’s legs. But why? Why would you do that? Do you have a foot fetish or something?[e] Just...why would you do that?
+Your companions seem to be wondering the same thing as we are, because you turn around and see them staring at you, very quizzically. However, when you do take off the shoes of the person, you find that their feet are very, very, very hairy. So full of hair that you can’t even see the skin of the feet. The sight makes you sick to your stomach. So sick that you start puking...and puking...and puking some more. You puke so much that your internal organs get puked out as well, and eventually you even puke out your heart onto the wooden floor of the town hall. So much for your foot fetish.[f]
+Tip: Investigate for useful information. Page 41
+(Return to Introduction → 1)
+                                          3. “Ok Boomer.” What’s that even supposed to mean? You look to your other companions, but they’re just as confused as you are. You follow the blood trail to see if there are any other clues, but there are none. 
+Confused, bewildered, and tired, you and your comrades decide to head back to the cottage outside the village. However, before you go you think to yourself, “Maybe I should stop by the market and grab some materials.” What do you do? Page 43
+                                          7. Stop by the market.
+                                          1. You decide to stop by the market and pick up some materials. A smart choice. Page 45
+(Proceed to [Buying Equipment])
+                                          8. Leave the village.
+                                          1. You decide to move on with your life and head back to the cottage with your companions. Page 47
+(Proceed to 4)
+                                          4. As you head back to the cottage, you hear a familiar screeching sound as a giant falcon swoops down on your entourage. Luckily for you, your companions pulled you down to the ground with them, and all five of you lie in the grassy plains face down, hoping the falcon goes away. But it doesn’t, and as it comes back for another attack, you realize you have to do something. What do you do? Page 49
+                                          1. Run South
+                                          1. (If have not died already) You run south towards the cottage, but also conveniently towards the giant falcon. You pull out your sword and charge, but you are no match for the might of the giant falcon. 
+You swing your sword at the falcon, but the falcon eats your sword instead. It then picks you up by your shoulders, and you read helplessly as your game character is carried away by the giant falcon. Page 51
+                                          2. (If have died already) You run south towards the cottage, but also conveniently towards the giant falcon. You pull out your sword and charge, but you are no match for the might of the giant falcon. 
+You swing your sword at the falcon, but the falcon eats your sword instead. It then picks you up by your shoulders, and in the distance you hear the woman yell at you, “You’ve died [# of times died] time[s] already, shouldn’t you know how to defeat the giant falcon by now?” 
+But no, evidently you don’t, and all you can do now is read helplessly as your game character is carried away by the giant falcon. Page 53
+                                          2. Run North
+                                          1. You run North, towards the village where you came from, but you realize you forgot to bring your companions along. You would look over your shoulder to see what has happened to them, but part of you is scared to check, so you keep running. Unfortunately, the falcon has other plans. It grabs you by your shoulders, and the impact knocks your sword free from your hands, rendering you defenseless against the giant falcons talons. Page 55
+(Return to Introduction → 1) 
+                                          3. Run North with your companions
+                                          1. You hurry, grab the others, and push them North in order to keep them away from the falcon. However, before you have the time to start running yourself, you find that the falcon has other plans. It grabs you by your shoulders, and the impact knocks your sword free from your hands, rendering you defenseless against the giant falcons talons. Your companions are safe, but you? Not so much. Page 57
+(Return to Introduction → 1) 
+                                          4. Stay and fight
+                                          1. (If lvl 2 armour, lvl 3 sword) You step in front of your companions and tell them to run towards the village. As they get up, you see the falcon coming towards you and you take action. You slice at the falcon’s talons and, in its agony, it slices at your chest, knocking you onto the ground (you lose 25 hp). It hurts, but your armour protects you from the worst of the damage. You stand back up just in time to see the falcon, now much angrier than before, coming at you once again. This time, you’re readier than ever. What do you do? Page 59
+                                          1. Jump
+                                          1. You attempt to jump over the falcons claws. A very dumb decision, as you jump right into the claws of the falcon. Suprised by your seemingly idiotic move, the falcon stumbles a bit, but it recovers very quickly and carries you off into the distance, as your companions watch from a distance… Page 61
+(Return to Introduction → 1)
+                                          2. Duck
+                                          1. You duck, but you duck a bit too early, and the falcon grabs your shoulders anyway. You try to fight, but the falcon has gotten used to getting its claws scratched, so it pays you no attention. You also notice that besides your slice mark from earlier there’s another deep cut on the front of the falcon’s claws, seemingly from another person just as helpless as you… Page 63
+(Return to Introduction → 1)
+                                          3. Sidestep left
+                                          1. You sidestep to the left, but luckily for you the falcon is left-handed (or would it be left-taloned?), so it misses you. Just barely. And you realize now is your chance. Just as it’s flying away, you thrust your sword straight through the steel-plated belly of the falcon, and it cries out in pain. It tries to fly away, dragging you and your sword along with it. However, the falcon soon succumbs to its wounds, and it stops flapping its wings. What do you do? Page 65
+                                          1. Nothing
+                                          1. You do nothing and you get crushed by the dead body of the giant falcon. Page 67
+(Return to Introduction → 1)
+                                          2. Something (wait 10 seconds before showing this button to the user)
+                                          1. You decide to do something, and your instincts tell you to dodge left. So you dodge left, just in time to avoid being crushed by the body of the giant falcon that was above you. Unfortunately, your sword gets lost under the body of the dead falcon. You try to get it back, but the body of the falcon is too heavy to lift. However, you do find a bag of 25 coins, so there’s that! Page 69
+(Proceed to 5) 
+                                          4. Sidestep right
+                                          1. You sidestep to the right, but unfortunately the falcon is left-taloned, so its left talon skewers you straight in the neck. It would seem that you guessed wrong. Oh well, tough luck! Page 71
+(Return to Introduction → 1)
+                                          5. You wake up the next morning to the woman shaking you. “Time to get up, we’ve got a murderer to find,” she tells you. You really don’t want to get out of bed, do you? Well, you have no choice. Sucks to be you.
+You ask what’s for breakfast. “Bread,” the woman replies, unenthusiastically. You wonder if you should ask if there’s more, but you realize there’s probably not. You scarf down the bread, and it replenishes your HP by 25. You and your entourage then set out for the town of Worcestershire-Sauss.
+You arrive in the town. What do you do? Page 73
+                                          5. Go West (to the market).
+                                          1. You decide to stop by the market and pick up some materials. A smart choice. Page 75
+(Proceed to [Buying Equipment])
+                                          6. Go South (to the town hall).
+                                          1. You head South, only to find that the body of the nobleman is still there. It doesn’t take a genius to guess that his body would still be there, so why did you feel the need to check again?
+Almost as if to make you pay for wasting time, a thief comes along and steals some coins from you. You try to chase after them, but they’re gone as fast as they came. It seems you are now down to 0 coins. Page 77
+(Return to 5)
+                                          7. Go North (to the city center).
+                                          1. You head North towards the city center. You wonder what you’ll find here, and as you keep walking around you begin to doubt your decision. However, as you walk around, you catch a glimpse of someone that doesn’t belong. A man wearing black shoes, grey pants, and a red shirt with some words plastered on it. You try to see what the words on his shirt says, and it’s just as you expected.
+Plastered on his shirt are the words, “Ok Boomer.”
+What do you do? Page 79
+                                          5. Run
+                                          1. You try to run away, and you run into your companions. You don’t remember when they stopped following you, but evidently they stopped as soon as you entered the town. And for some reason, their eyes are filled with malicious intent…
+“Why didn’t you confront him?” the skinny man asks.
+You have no response.
+“You should have confronted him, but instead you failed. You failed all of us Worcestershire-Saussians. You shall pay for your crimes,” the last man says. 
+The woman stabs you, and as you fall to the ground you think to yourself, “Why am I still here playing this game when I could be doing more useful things with my life?”
+Tip: Running is for lazy people :) Page 81
+(Return to Introduction → 1)
+                                          6. Pin him down
+                                          1. Without hesitation, you tackle the man to the ground. He struggles a bit, but you hold your sword to his throat and he stops thrashing. Page 83
+(Proceed to 6)
+                                          7. Talk to him
+                                          1. You attempt to reason with the man, even though you know they’re likely the person who killed the nobleman. 
+“Look, we can talk about this,” you say.
+“No, I don’t think we can,” he replies.
+He then stabs you.
+Tip: Try not to reason with a murderer. It usually doesn’t go well. Page 85
+(Return to Introduction → 1)
+                                             8. Sing “Kumbaya”
+                                             1. You try to sing a song of peace, but your voice is terrible, and the man in front of you stabs you in order to stop you from continuing your horrible singing.
+Tip: Try to avoid singing. Please, for the good of us all and for the sake of your friends and family as well. Page 87
+(Return to Introduction → 1)
+                                             6. You ask the man, “Why did you kill someone,” but instead of responding the man simply replies with another question.
+“Why are you here in the first place?” he asks.
+You’re about to ask him to answer your question but something about his tone catches him off guard. Besides, why are you here anyway? 
+Just as he says that, you hear some commotion from behind you. “The king is dead!” someone screams. “The king of Worcestershire-Sauss is dead!” 
+You should be shocked, but somehow this seems to make sense. You look down, only to find that the man with the “Ok Boomer” shirt has disappeared. In his place you find a note, with barely legible handwriting on it. 
+What do you do? Page 89
+                                             8. Read the note.
+                                             1. You read the note that the man left. 
+“Head South. Find the cave. Answers await you there.”
+You think back to your conversation with the man. “Why are you here in the first place,” he had asked. What did he mean? His question seemed to spawn even more questions every time you thought about it. You knew you needed answers. And it seems the only way to find those answers is to head to the cave. (Proceed to Ending)
+                                             9. Head South (towards the town hall).
+                                             1. You try to head towards the town hall to see for yourself, and on the way there you notice that the body of the nobleman is missing, but you run into your companions instead. You don’t remember when they stopped following you, but evidently they stopped as soon as you entered the town. And for some reason, their eyes are filled with malicious intent…
+“Why didn’t you confront him?” the skinny man asks.
+You have no response.
+“You should have confronted him, but instead you failed. You failed all of us Worcestershire-Saussians. You shall pay for your crimes,” the last man says. 
+The woman stabs you, and as you fall to the ground you think to yourself, “Why am I still here playing this game when I could be doing more useful things with my life?”
+Tip: Running is for lazy people :) Page 93
+(Return to Introduction → 1)
+                                             10. Run away
+                                             1. You try to run away, but you run into your companions. You don’t remember when they stopped following you, but evidently they stopped as soon as you entered the town. And for some reason, their eyes are filled with malicious intent…
+“Why didn’t you confront him?” the skinny man asks.
+You have no response.
+“You should have confronted him, but instead you failed. You failed all of us Worcestershire-Saussians. You shall pay for your crimes,” the last man says. 
+The woman stabs you, and as you fall to the ground you think to yourself, “Why am I still here playing this game when I could be doing more useful things with my life?”
+Tip: Running is for lazy people :) Page 95
+(Return to Introduction → 1)
+
+
+Ending:
+                                             1. As you get closer you notice that this being is wearing the same clothes as you. You approach them and the mysterious being turns around. That’s when you notice that they… they are... you. Bewildered, you ask them “Who are you!?” They respond, “That’s what I was going to ask! It all started when I first entered the city of Worcestershire-Sauss and chose to go SOUTH towards the town hall! I met a strange woman who led me to a cottage outside the city, and that’s when the troubles began.” You respond, “I chose to go NORTH when I first entered the city. I was led by a man who led me to this very cave yesterday. I was bound by a curse, that forced me to murder the king.” “YOU MURDERED THE KING! PERISH YOU VILE FOOL!” said the mysterious clone. (continue to 9 if you have sword level 3 or above and armor level 2 or above) (continue to 10 if you don’t)
+                                             1. (initiate pokemon music) You and your clone engage in a fierce battle. You bash your swords for 30 minutes straight, but your and your clone are equal in battle skill. Finally, your clone’s sword breaks, and you stab him. As he is dying, he says, “North... I should have gone NORTH, you chose the right path my friend.”
+                                             2. (initiate pokemon music) You and your clone engage in a fierce battle. You bash your swords for 30 minutes straight, but your and your clone are equal in battle skill. Finally, your sword breaks, and he stabs you. As you are dying, you say, “South... I should have gone SOUTH, you chose the right path my friend.”
+
+
+[g]Ending:
+                                             1. As you make your way towards the cave, you notice the sun setting. “Odd,” you think to yourself. “But it was just morning? How did the sun set so fast?” 
+You contemplate turning back, but you feel something urging you forward. Almost like a secret voice telling you, “Keep going.” Your gut tells you to go back, but you ignore it, and break into a sprint straight for the cave. 
+You notice the cave growing closer and closer to you, and as you approach you realize that a figure stands at the entrance to the cave. Their physique looks oddly familiar, but you struggle to recall where you have seen this person before. You contemplate going back once again, creeped out by the familiar figure. But your gut urges you on…
+What do you do?
+                                             1. Keep going towards the cave.
+                                             1. You decide that after walking this far, it’s too late to turn back, and on you go towards the cave…
+(Proceed to 2)
+                                             2. Turn around and head back to the town.
+                                             1. You attempt to head back to the town, but as you turn around you feel a very, very strong urge to turn around. You resist with all your might, but as you continue to resist the urge only gets stronger and stronger until, much to your surprise, your insides are completely ripped apart. Maybe you shouldn’t have resisted that urge...
+Tip: Usually you’re urged along for a reason you fool.
+(Return to Introduction → 1)
+                                             2. Upon reaching the cave, you a mysterious air hits you, and suddenly the landscape around you turns completely dark. The cave that you once saw no longer stands in front of you. The sun has disappeared from the sky, along with the clouds, the blue sky above, the green grass around you, and the town of Worcestershire-Sauss behind you. Even the stars have disappeared. All that remains around you is darkness.
+(wait like 10 seconds or something idk)
+“I’m sure you’re wondering where the light is,” a voice speaks from the darkness. 
+As if on cue, a circle of light appears around you and the mysterious figure. You look up to see where the light is coming from, but you find no source. 
+Your attention returns back to the person standing in front of you. Their back still faces you, but suddenly it becomes clear who the person standing in front of you is.
+(Make in different page or something so that this text is the only thing on the screen) 
+It’s you. (If camera thing works now is the time to use it for somethin idk)
+What do you do?
+                                             3. Run away.
+                                             1. You try to run away, but after running for just a few minutes you realize there is no end to the darkness. There is nowhere to run.
+You attempt to try to find your way back to the light, but you have gotten yourself lost. Eventually, after many years of searching for the light, you finally die of old age.
+(Return to Introduction → 1)
+                                             4. Confront yourself.
+                                             1. You walk towards yourself, wondering how you can see yourself standing in front of you.
+(Proceed to 3)
+                                             5. Draw your sword.
+                                             1. You start drawing your sword out, but before you can draw it out you realize that the version of you who was once standing in front of you has disappeared. You frantically search around you to see where that person has gone, but you find no trace of yourself anywhere. 
+You continue to search for yourself, but you find nothing. After what seemed like an eternity, you finally give up on searching for yourself, and start searching for a way out of the darkness surrounding you. Eventually, after many years of searching, you finally die of old age.
+(Return to Introduction → 1)
+                                             6. Curl up into a ball.
+                                             1. Scared of facing yourself, you curl up into a ball and see if you can just wait this out, like a bad dream. But, as it turns out, you can’t. You stay curled up until the end of time, at which point you finally die of old age.
+(Return to Introduction → 1)
+                                             3. 
+
+
+
+Buying Equipment:
+                                             1. Welcome to the market! What would you like to buy? Page 25
+                                             1. Sword
+                                             1. (If has sword) Excellent choice! I see you already have a level [x] sword, so would you like to upgrade that sword for [y] coins?
+                                             1. Yes
+                                             1. Thank you for doing business!
+(Return to [Buying Equipment])
+                                             2. No
+                                             1. That’s a shame. Hope you can find something else you like!
+(Return to [Buying Equipment])
+                                             2. (If no sword) I see you don’t have a sword. Would you like to buy one for 25 coins?
+                                             1. Yes
+                                             1. Thank you for doing business!
+(Return to [Buying Equipment])
+                                             2. No
+                                             1. That’s a shame. Hope you can find something else you like!
+(Return to [Buying Equipment])
+                                             2. Armour
+                                             1. (If has armour) Excellent choice! I see you already have level [x] armour, so would you like to upgrade that armour for [y] coins?
+                                             1. Yes
+                                             1. Thank you for doing business!
+(Return to [Buying Equipment])
+                                             2. No
+                                             1. That’s a shame. Hope you can find something else you like!
+(Return to [Buying Equipment])
+                                             2. (If no armour) I see you don’t have any armour. Would you like to buy some for 50 coins?
+                                             1. Yes
+                                             1. Thank you for doing business!
+(Return to [Buying Equipment])
+                                             2. No
+                                             1. That’s a shame. Hope you can find something else you like!
+(Return to [Buying Equipment])
+                                             3. Food
+                                             1. It’s always a good idea to carry around some food! What food would you like to purchase?
+                                             1. Bread (heals 25 hp, 25 coins)
+                                             1. Are you sure you would like to purchase some bread (heals 25 hp) for 25 coins?
+                                             1. Yes
+                                             1. Thank you for doing business!
+(Return to [Buying Equipment])
+                                             2. No
+                                             1. That’s a shame. Hope you can find something else you like!
+(Return to [Buying Equipment])
+                                             2. Chicken (heals 50 hp, 50 coins)
+                                             1. Are you sure you would like to purchase some chicken (heals 50 hp) for 50 coins?
+                                             1. Yes
+                                             1. Thank you for doing business!
+(Return to [Buying Equipment])
+                                             2. No
+                                             1. That’s a shame. Hope you can find something else you like!
+(Return to [Buying Equipment])
+                                             3. Beef (heals 75 hp, 75 coins)
+                                             1. Are you sure you would like to purchase some beef (heals 75 hp) for 75 coins?
+                                             1. Yes
+                                             1. Thank you for doing business!
+(Return to [Buying Equipment])
+                                             2. No
+                                             1. That’s a shame. Hope you can find something else you like!
+(Return to [Buying Equipment])
+                                             4. Joe Mama (heals 100 hp, 100 coins)
+                                             1. Are you sure you would like to purchase Joe Mama (heals 100 hp) for 100 coins?
+                                             1. Yes
+                                             1. Thank you for doing business!
+(Return to [Buying Equipment])
+                                             2. No
+                                             1. That’s a shame. Hope you can find something else you like!
+(Return to [Buying Equipment])
+                                             2. (Real talk tho idk what to name this food plz help)
+                                             4. [Leave]
+                                             1. Thank you for doing business! 
+(Return to whatever step user came from to enter market)
+Cost of sword: y = 25 + (level of sword * 25)
+Cost of armour: y = 50 + (level of armour * 50)
+
+
+
+
+Script for Demo Video:
+        When looking for inspiration for our game, our members thought of the game “Dunnet.” A classic text-based adventure game, “Dunnet” allows you to manipulate the virtual environment in the game based on certain choices that you make. We decided to build a game modeled off of “Dunnet,” except with a few extra features.
+        The game starts off with you in your house. You can choose to either grab a sword, eat food, go back to sleep, or go outside. However, if you make a mistake, your progress is reset completely and a red LED lights up. In order to safely venture outside the first time, you must grab a sword and eat food before leaving the house. If you make the correct choice again, the yellow LED light flashes as a result, and you gain coins, an in game currency used to upgrade your materials.
+        As the game progresses, you are faced with more and more choices, and everyone in a while you have to replenish your health. This can be done by accessing the market and buying food, which will replenish your health different amounts depending on what you buy.
+        Sometimes, however, even having full hp can’t save you if you choose the wrong option, and you’ll perish anyway. 
+        Players can also navigate to the market to buy weapons and armour, however, make sure to spend your coins wisely, otherwise you may not be able to afford certain items in the store!
+As an added bonus, there are even easter eggs scattered throughout the game, so be on the lookout for any potential easter eggs!
+So be sure to play wisely, and have fun exploring the mysteries of Worcestershire-Sauss!
+[a]idrk how to describe people well so if someone wants to edit this and make it less awkward that would be very much appreciated
+[b]+jfanale22@kentdenver.org
+_Assigned to Jacob Fanale_
+[c]perhaps lose 25 HP after every stem due to thirst
+[d]perhaps lose 25 HP after every stem due to thirst
+[e]Delete for submission to Kent
+[f]Delete for submission to Kent
+[g]Original Ending: saving for inspiration/in case we need to revert or something idk
