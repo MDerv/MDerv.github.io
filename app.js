@@ -1,6 +1,14 @@
+/* Dhruv Sharma
+10/01/2020
+12/13/2020
+This file allows the html button logic to be implemented in the story.
+It allows certain pages to be accessed depending on the choices of the user.
+*/
+
 var hp = 50;
 var pickedSword = false;
 
+//the following commented code may be implemented in the future if I want to create a Firebase Database to store users' progress
 /*
 var firebaseConfig = {
   apiKey: "AIzaSyCshzo4pnxHj7zkaDrR4tthwotTleGS4JY",
@@ -27,18 +35,18 @@ const increment = firebase.firestore.FieldValue.increment(1);
 */
 
 
-function eatBreakfast(){
+function eatBreakfast(){ //run when the user selects the option to eat breakfast; mandatory to not die
   hp = 100;
   window.alert("You feel your stomach grumbling, and decide to quell your hunger with some oats and brown bread.\nYour HP has been replenished to 100.");
 }
 
-function pickSword(){
+function pickSword(){ //run when the user selects the option to pick up the sword; mandatory to not die
   pickedSword = true;
   window.alert("You pick up the sword. A smart choice: the world outside is very dangerous. \nA sword has been added to your inventory.");
 }
 
+//navigates to one of the two death screens if the user didn't pick up the sword or eat breakfast, or allows user to continue
 function houseTasks(){
-
   if(hp > 50 && pickedSword) {
     window.location.replace("page3.html");
   }
