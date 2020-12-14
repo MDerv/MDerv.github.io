@@ -31,7 +31,7 @@
 }
 
 #startButton {
-    background-color: #ff0000; /* Red */
+    background-color: #3e8e41; /* Light Green */
     border: none;
     color: white;
     padding: 10px 32px;
@@ -44,6 +44,20 @@
     position: relative;
     margin-top: 50px;
 }
+
+#startButton:hover {background-color: #ff0000; /* Red */}
+#startButton:hover {
+      transform: translateZ(0) scale(1.7);
+
+      }
+
+#optionButton:hover{
+    width: 200px;
+    border: 3px solid #660000;
+    background: #660000;
+    color: #2ecc71;
+}
+
 
 #optionButton {
     background-color: #ff0000; /* Red */
@@ -58,6 +72,7 @@
     transition-duration: 0.4s;
     position: relative;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 #pageText {
