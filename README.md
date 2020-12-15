@@ -20,11 +20,11 @@ File Descriptions:
 
 ⋅⋅MLH Roll for Hacking Game Plot.txt - This is the full script of the game (with logical queues to tell the reader where to go next). As of now part of this script has been implemented in the website.
 
-  *README.md - This file: the file that directs the user on how to use this project.
+  * README.md - This file: the file that directs the user on how to use this project.
 
-  *about.html - This page displays information about the creaters of this project, the script, and the Raspberry Pi version of this project.
+  * about.html - This page displays information about the creaters of this project, the script, and the Raspberry Pi version of this project.
 
-  *app.js - This file allows the html button logic to be implemented in the story. It allows certain pages to be accessed depending on the choices of the user. I may use this in the future to add a connection to a database to keep track of users' save checkpoints.
+  * app.js - This file allows the html button logic to be implemented in the story. It allows certain pages to be accessed depending on the choices of the user. I may use this in the future to add a connection to a database to keep track of users' save checkpoints.
 
 index.html - This file defines the title index.html page. It appears when the the user types in the root website url (as of now: MDerv.github.io) and allows the user to continue to the game.
 
