@@ -16,7 +16,7 @@ Path 1:
 
   4. The website should open in you browser. Enjoy!
 
-File Descriptions:
+## File Descriptions:
 
   * MLH Roll for Hacking Game Plot.txt - This is the full script of the game (with logical queues to tell the reader where to go next). As of now part of this script has been implemented in the website.
 
