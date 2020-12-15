@@ -5,9 +5,10 @@
 
 ## Instructions to Run the Project:
 
-Path 1:
+Method 1:
 
   1. Go to (https://github.com/MDerv/MDerv.github.io) and download the zip file of the project.
+![Step1](images/instructions/Step1.png?raw=true "Step1")
 
 
   2. Unzip the zip file place the unzipped folder into a folder of you choice.
