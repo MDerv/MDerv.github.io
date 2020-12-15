@@ -15,7 +15,7 @@ index.html - This file defines the title index.html page. It appears when the th
 
 style.css - This file sets up the formatting and styling for objects and layout in the html pages.
 
-pages folder:
+'pages' folder:
 
 page0.html - This file defines page0 in the story. It appears when the the user selects the "Start Game..." option on the index or home page.
 
@@ -54,6 +54,12 @@ page16.html - This file defines page16 in the story. It appears when the the use
 page17.html - This file defines page17 in the story. It appears when the the user selects the "Stay and Fight" option on page9.
 
 pageConstruction.html - This file defines the Under Construction page in the story. It appears when the the user selects an option for which the corresponding page has yet to be completed.
+
+'favicon' folder:
+The images in the favicon folder are images of a bottle of Worcestershire Sauce (the images are all the same; they just are in different sizes). These images show up as the icon on each tab of the website. That way you know which tab is a 'Murders Of Worcestershire-Sauss' tab! 'site.webmanifest' defines extra attributes for the android images.
+
+'images' folder:
+
 
 
 Cache and Git Management files (should be invisible on computer):
