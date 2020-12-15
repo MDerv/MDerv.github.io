@@ -81,8 +81,10 @@ The images in the favicon folder are images of a bottle of Worcestershire Sauce 
   * Karen.png - This is an image of Karen Plankton from Spongebob. It is used in the About page while talking about the project's coders and writters (because Karen is a computer and gives off a tech savy vibe).
 
   * UnderConstruction.png - This "Under Construction" image is used on the pageConstruction, which is used when the user chooses an option that leads to a page that hasn't been created yet.
+  
+  Within the images folder there is an 'instructions' folder. There I have images of Steps 1-4 of running the website and a picture of the online hosted website.
 
-Cache and Git Management files (should be invisible on computer):
+**Cache and Git Management files (should be invisible on computer):**
 .DS_Store
 .gitattributes
 
