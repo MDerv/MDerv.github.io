@@ -1,4 +1,4 @@
-# The Murders Of Worcestershire-Sauss: TheWebsite
+# The Murders Of Worcestershire-Sauss: The Website
 ## This project makes a website where you can play The Murders of Worcestershire-Sauss.
 #### Created by Dhruv Sharma
 ##### Last Edited on December 15th, 2020
