@@ -19,7 +19,7 @@
   4. The website should open in you browser. Enjoy!
   ![Step4](images/instructions/Step4.png?raw=true "Step4")
     
-**Method 1:**
+**Method 2:**
 
   1. Go to https://mderv.github.io/ and enjoy!
   ![OnlineWebsite](images/instructions/OnlineWebsite.png?raw=true "OnlineWebsite")
