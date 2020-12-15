@@ -54,8 +54,6 @@ This file sets up the formatting and styling for objects and layout in the html 
 
 #startButton:hover {
     background-color: #800000; /* Maroon */
-}
-#startButton:hover {
     transform: translateZ(0) scale(1.7);  /* Enlarges Button */
 }
 
