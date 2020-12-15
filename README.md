@@ -5,17 +5,25 @@
 
 ## Instructions to Run the Project:
 
-Method 1:
+**Method 1:**
 
-  1. Go to (https://github.com/MDerv/MDerv.github.io) and download the zip file of the project.
-![Step1](images/instructions/Step1.png?raw=true "Step1")
-
+  1. Go to https://github.com/MDerv/MDerv.github.io and download the zip file of the project.
+  ![Step1](images/instructions/Step1.png?raw=true "Step1")
 
   2. Unzip the zip file place the unzipped folder into a folder of you choice.
+  ![Step2](images/instructions/Step2.png?raw=true "Step2")
 
   3. Withing the folder, right click on the index.html file and select the "Open With..." option. In the dropdown menu, select Google Chrome (or another browser of your choice).
+  ![Step3](images/instructions/Step3.png?raw=true "Step3")
 
   4. The website should open in you browser. Enjoy!
+  ![Step4](images/instructions/Step4.png?raw=true "Step4")
+    
+**Method 1:**
+
+  1. Go to https://mderv.github.io/ and enjoy!
+  ![OnlineWebsite](images/instructions/OnlineWebsite.png?raw=true "OnlineWebsite")
+
 
 ## File Descriptions:
 
