@@ -1,26 +1,26 @@
 # TheMurdersOfWorcestershire-Sauss-TheWebsite
-This project makes a website where you can play The Murders of Worcestershire-Sauss.
-Created by Dhruv Sharma
-Last Edited on December 15th, 2020
+##This project makes a website where you can play The Murders of Worcestershire-Sauss.
+####Created by Dhruv Sharma
+#####Last Edited on December 15th, 2020
 
-Instructions to Run the Project:
+##Instructions to Run the Project:##
 
 Path 1:
 
-..1. Go to (https://github.com/MDerv/MDerv.github.io) and download the zip file of the project.
+⋅⋅1. Go to (https://github.com/MDerv/MDerv.github.io) and download the zip file of the project.
 
 
-..2. Unzip the zip file place the unzipped folder into a folder of you choice.
+⋅⋅2. Unzip the zip file place the unzipped folder into a folder of you choice.
 
-..3. Withing the folder, right click on the index.html file and select the "Open With..." option. In the dropdown menu, select Google Chrome (or another browser of your choice).
+⋅⋅3. Withing the folder, right click on the index.html file and select the "Open With..." option. In the dropdown menu, select Google Chrome (or another browser of your choice).
 
-..4. The website should open in you browser. Enjoy!
+⋅⋅4. The website should open in you browser. Enjoy!
 
 File Descriptions:
 
-..MLH Roll for Hacking Game Plot.txt - This is the full script of the game (with logical queues to tell the reader where to go next). As of now part of this script has been implemented in the website.
+⋅⋅MLH Roll for Hacking Game Plot.txt - This is the full script of the game (with logical queues to tell the reader where to go next). As of now part of this script has been implemented in the website.
 
-..README.md - This file: the file that directs the user on how to use this project.
+⋅⋅README.md - This file: the file that directs the user on how to use this project.
 
 about.html - This page displays information about the creaters of this project, the script, and the Raspberry Pi version of this project.
 
