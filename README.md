@@ -59,8 +59,13 @@ pageConstruction.html - This file defines the Under Construction page in the sto
 The images in the favicon folder are images of a bottle of Worcestershire Sauce (the images are all the same; they just are in different sizes). These images show up as the icon on each tab of the website. That way you know which tab is a 'Murders Of Worcestershire-Sauss' tab! 'site.webmanifest' defines extra attributes for the android images.
 
 'images' folder:
+I currently have many photos stored in this folder that I plan to use later as backgrounds for various pages (this is currently a low priority - something I will do as one of the final steps in the project). The pictures that I am using in my project are the following:
 
+Background.png - This image is the background for all of my pages. It is a picture of a cave, which is a central setting of the plot.
 
+Karen.png - This is an image of Karen Plankton from Spongebob. It is used in the About page while talking about the project's coders and writters (because Karen is a computer and gives off a tech savy vibe).
+
+UnderConstruction.png - This "Under Construction" image is used on the pageConstruction, which is used when the user chooses an option that leads to a page that hasn't been created yet.
 
 Cache and Git Management files (should be invisible on computer):
 .DS_Store
